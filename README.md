@@ -18,6 +18,7 @@ Network scanner for finding raspberry pi IP address once connected to the networ
 
 ---
 ### Setting up Docker
+Link to this [page](docker_setup.md)
 
 ---
 ### Linear Calibration
