@@ -17,13 +17,14 @@ A VNC (Virtual Network Computing) viewer is used to remotely access and control 
 Network scanner for finding raspberry pi IP address once connected to the network.
 
 ---
-### Setting up Docker
-Link to this [page](docker_setup.md)
-
----
-### Linear Calibration
-#### Testing Linear Movement
-#### Testing Angular Movement
+### Documentation Outline
+#### [Setting up the Environment]() 
+#### [Setting up a Docker](docker_setup.md) 
+#### [Testing Controls]()
+#### [Linear Calibration]() 
+#### [Angular Calibration]() 
+#### [Building a package]() 
+#### [ROS2 Library]() 
 
 ---
 ### ROS2 Related Topics
