@@ -18,7 +18,7 @@ Network scanner for finding raspberry pi IP address once connected to the networ
 
 ---
 ### Documentation Outline
-#### [Setting up the Environment]() 
+#### [Setting up the Environment](environment_setup.md) 
 #### [Setting up a Docker](docker_setup.md) 
 #### [Testing Controls]()
 #### [Linear Calibration]() 
