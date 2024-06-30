@@ -21,7 +21,12 @@ A. In the first terminal you opened, run this command: ```ros2 launch yahboomcar
 ### Step 3. Start Linear Speed Calibration Program
 This is where you will see the change in speed of the robot as it executes the speed test. At first use, this will be waiting for the program execution to begin.
 A. In the second terminal you opened, run this command: ```ros2 run yahboomcar_bringup calibrate_linear```\
+
+Here the program is waiting for a change in state to update.\
 (add image)
 
 ### Step 4. Execute Linear Speed Test
+To test different speed, now we need to open the dynamic parameter adjuster. Run this command in a new terminal: ```ros2 run rqt_reconfigure rqt_reconfigure```
+
+(add image)
 
