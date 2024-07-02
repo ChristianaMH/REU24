@@ -4,6 +4,9 @@ and a IP scanner (the recommended one can be found [here](https://angryip.org/))
 
 Note: This tutorial provides a basic setup using a pre-configured network (<b>RoboBulls_Network_ENG202B</b>). 
 
+![image](https://github.com/ChristianaMH/REU24/assets/106120377/c681e7ef-26ce-4000-9a08-7e488fb51556)
+![image](https://github.com/ChristianaMH/REU24/assets/106120377/7f77e693-d843-4540-bce9-be24e82bd638)
+
 ---
 ### Connecting with VNC
 Connect to the RoboBulls_Network_ENG202B with your laptop.
