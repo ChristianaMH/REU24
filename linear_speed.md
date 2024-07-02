@@ -56,3 +56,11 @@ Once parameters have been modified, click start_test then reset start_test and s
 
 The code for this can be found in this reference path: ```~/yahboomcar_ws/src/yahboomcar_bringup/yahboomcar_bringup/calibrate_linear.py```
 
+
+angulare speed:
+![image](https://github.com/ChristianaMH/REU24/assets/106120377/475d9c73-5f7a-4e93-a7e1-a9e64046208b)
+
+![image](https://github.com/ChristianaMH/REU24/assets/106120377/d83c8b28-bef1-42a7-b89b-2c5b5f5e164d)
+
+![image](https://github.com/ChristianaMH/REU24/assets/106120377/22642521-3c2a-4902-af08-77b048c19e5c)
+
