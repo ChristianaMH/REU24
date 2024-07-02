@@ -24,6 +24,8 @@ inside test:
 setup.py
 ![image](https://github.com/ChristianaMH/REU24/assets/106120377/5f376da4-5eea-49cb-a7cd-9f4cd0b9de80)
 
+adding to setup.py:
+![image](https://github.com/ChristianaMH/REU24/assets/106120377/45dc5457-ce4b-4915-9136-22876dd13c56)
 
 
 
