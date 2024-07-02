@@ -6,6 +6,7 @@ Note: This tutorial provides a basic setup using a pre-configured network (<b>Ro
 
 ![image](https://github.com/ChristianaMH/REU24/assets/106120377/c681e7ef-26ce-4000-9a08-7e488fb51556)
 ![image](https://github.com/ChristianaMH/REU24/assets/106120377/7f77e693-d843-4540-bce9-be24e82bd638)
+![image](https://github.com/ChristianaMH/REU24/assets/106120377/6a17e6b0-9d23-4c1f-bb54-69baa3b4cf9b)
 
 ---
 ### Connecting with VNC
