@@ -18,4 +18,10 @@ Use the IP Scanner to scan for the Pi5. Once found, this will be the IP used to 
 
 Type the IP address into the top bar of the VNC viewer. Enter the username: <b>Root</b> and password: <b>12345678</b> (???)
 
+SHUTDONW
+![image](https://github.com/ChristianaMH/REU24/assets/106120377/bc4f0ddb-9d82-4484-b5fc-649887c6e183)
+
+![image](https://github.com/ChristianaMH/REU24/assets/106120377/8ae41852-bf31-4661-98a9-52a057b3334a)
+
+
 
