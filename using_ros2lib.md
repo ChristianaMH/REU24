@@ -21,6 +21,9 @@ inside resource:
 inside test:
 ![image](https://github.com/ChristianaMH/REU24/assets/106120377/8847e6a3-c049-4a42-a8b0-8199365355b7)
 
+setup.py
+![image](https://github.com/ChristianaMH/REU24/assets/106120377/5f376da4-5eea-49cb-a7cd-9f4cd0b9de80)
+
 
 
 
