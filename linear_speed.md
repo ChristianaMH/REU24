@@ -10,7 +10,7 @@ A. Open a new terminal and connect to docker with this command: ```sh ros2_humbl
 (add image)\
 B. Open another terminal and type: ```docker ps```. This will display a list of available dockers to use.\
 C. Connect to the most recent one opened (the one you are using in the previous terminal in part A) with this command:\
-```docker exec -it <first 3 characters of id?> <command>```\
+```docker exec -it <first 3 characters of id?> /bin/bash```\
 (add image)
 
 ### Step 2. Start Data Processing Program
