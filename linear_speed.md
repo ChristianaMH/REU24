@@ -59,10 +59,30 @@ Here are the parameters you can change to test different conditions:
 
 Once parameters have been modified, click start_test then reset start_test and start_test again to calibrate to these new modifications.
 
+## Testing Angular Speed 
+The same test can be performed on angular speed. 
 angulare speed:
+
+Follow Steps 1 & 2. In Step 3, instead type this command in terminal B: ```ros2 launch yahboomcar_bringup yahboomcar_bringup_launch.py``` This will start the car angular velocity calibration program:
 ![image](https://github.com/ChristianaMH/REU24/assets/106120377/475d9c73-5f7a-4e93-a7e1-a9e64046208b)
 
+Next follow Step 4 and open the dynamic parameter adjuster with this command: ```ros2 run rqt_reconfigure rqt_reconfigure```.
+
+Here you will see a visual editor for parameter configuration. In the left column you will see a list of nodes, including <b>calibrate_angular</b> (this node is 
+used to calibrate angular speed). If this node not present in the list, click the Refresh button.\
 ![image](https://github.com/ChristianaMH/REU24/assets/106120377/d83c8b28-bef1-42a7-b89b-2c5b5f5e164d)
 
+Click on the <b>calibrate_angular</b> node and check the <b>start_test</b> box to begin the test. In terminal B you can see the radius and error calculated as the robot travels. 
 ![image](https://github.com/ChristianaMH/REU24/assets/106120377/22642521-3c2a-4902-af08-77b048c19e5c)
 
+### Parameter Options
+Here are the parameters you can change to test different conditions:
+- <b>test_angle</b> : determines the angle the robot will rotate (default is 360 degree rotation)
+- <b>speed</b> : determines the linear speed the robot will travel
+- <b>tolerance</b> : determines the allowable error tolerance
+- <b>odom_angular_scale_correction</b> : determines the angular speed proportional coefficient (change if test results are not cohesive)
+- <b>start_test</b> : starts/stops test
+- <b>base_frame</b> : determines the base coordinate system
+- <b>odom_frame</b> : determines the odometer coordinate system
+
+Once parameters have been modified, click start_test then reset start_test and start_test again to calibrate to these new modifications.
