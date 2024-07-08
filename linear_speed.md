@@ -1,5 +1,4 @@
 # Calibrating Linear Speed
-Yahboom Documentation for reference: [Linear Speed Calibration](http://www.yahboom.net/study/MicroROS-Pi5)
 
 ## Testing Linear Speed 
 > [!WARNING]  
