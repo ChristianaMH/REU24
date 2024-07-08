@@ -40,32 +40,29 @@ Once built, you can see your package in your src workspace:
 ![image](https://github.com/ChristianaMH/REU24/assets/106120377/e562151d-b66d-4275-9e58-0a4ca4cff604)
 
 #### Step 4. Modify ros2_library.py
-Navigate to where the executable files are stores: ```cd ~/yahboomcar_ros2_ws/yahboomcar_ws/src/pkg_ros2_library_py/pkg_ros2_library_py```. Here you will see the ros2_library.py file:
+Navigate to where the executable files are stores: ```~/yahboomcar_ros2_ws/yahboomcar_ws/src/pkg_ros2_library_py/pkg_ros2_library_py```. Here you will see the ros2_library.py file:
 
 ![image](https://github.com/ChristianaMH/REU24/assets/106120377/c1525458-4aa7-4025-8899-df79b9f62bb7)
 
-#### Step 4. Modify ros2_library.py
-
 Modify this file with the contents to the one in this [github](ros2_library.py).
 
-now you can see package:
+#### Step 5. Add example_usage.py
+In the same directory, add a file called example_usage.py and fill it with the contents from [here](example_usage.py).
 
-see inside pcakage:
+#### Step 6. Modify the setup.py file
+Navigate to the setup file that is located in ```~/yahboomcar_ros2_ws/yahboomcar_ws/src/pkg_ros2_library_py```: 
 
-inside (1 level up): 
 ![image](https://github.com/ChristianaMH/REU24/assets/106120377/8b6abc4c-39e5-4d9d-8f6b-a40ec83061b6)
 
-inside resource: 
-![image](https://github.com/ChristianaMH/REU24/assets/106120377/56c9ff3a-fccc-47fe-86df-917e085d6290)
-
-inside test:
-![image](https://github.com/ChristianaMH/REU24/assets/106120377/8847e6a3-c049-4a42-a8b0-8199365355b7)
+Open the setup.py file and scroll down to the entry_points. In the console_scripts list, add example_usage by typing: 'example_usage = pkg_ros2_library_py.example_usage:main'
 
 setup.py
 ![image](https://github.com/ChristianaMH/REU24/assets/106120377/5f376da4-5eea-49cb-a7cd-9f4cd0b9de80)
 
-adding to setup.py:
+After adding to setup.py:
 ![image](https://github.com/ChristianaMH/REU24/assets/106120377/45dc5457-ce4b-4915-9136-22876dd13c56)
 
+#### Step 7. Build & Run 
+Now navigate back to the src workspace and type ```colcon build``` to build the pcakage and then ```source install/setup.bash```.
 
-
+Now you can run the example executable file with this command: ```ros2 run pkg_ros2_library_py example_usage```
