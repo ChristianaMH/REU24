@@ -32,12 +32,3 @@ Network scanner for finding raspberry pi IP address once connected to the networ
 #### [ROS 2 Basics & Tutorials (Humble)](https://docs.ros.org/en/humble/Tutorials.html))
 #### [RCLPY Class Documentation](https://docs.ros2.org/foxy/api/rclpy/api.html)
 
----
-### Writing Code
-1. All new code/functions are written in the src folder of the workspace.\
-2. After a new file is created, you must set environment variables in order to find the function package and executable file after compilation. This is done in the setup.py file.\
-![image](https://github.com/ChristianaMH/REU24/assets/106120377/bd2910a7-e3af-4797-972d-61f8642e6982)
-![image](https://github.com/ChristianaMH/REU24/assets/106120377/bd2910a7-e3af-4797-972d-61f8642e6982)
-
-#### Creating a Function Package
-Command to create a new function package: ```ros2 pkg create <package_name> --build-type <build-type> --dependencies <dependencies> --node-name <node-name>```
