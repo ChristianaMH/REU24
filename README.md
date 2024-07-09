@@ -29,7 +29,7 @@ Network scanner for finding raspberry pi IP address once connected to the networ
 ### ROS2 Related Topics
 #### [What is a Docker & How does it work?](http://www.yahboom.net/public/upload/upload-html/1687333441/5%E3%80%81Enter%20the%20bot's%20docker%20container.html)
 #### [Understanding ROS2 Nodes](https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html)
-#### [ROS 2 Basics & Tutorials (Foxy)](https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries.html)
+#### [ROS 2 Basics & Tutorials (Humble)](https://docs.ros.org/en/humble/Tutorials.html))
 #### [RCLPY Class Documentation](https://docs.ros2.org/foxy/api/rclpy/api.html)
 
 ---
